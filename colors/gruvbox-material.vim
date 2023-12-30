@@ -1621,7 +1621,7 @@ if !s:configuration.transparent_background
   call gruvbox_material#highlight('NeoTreeEndOfBuffer', s:palette.bg_dim, s:palette.bg_dim)
   call gruvbox_material#highlight('NeoTreeVertSplit', s:palette.bg0, s:palette.bg0)
 endif
-highlight! link NeoTreeDirectoryIcon Orange
+highlight! link NeoTreeDirectoryIcon Directory
 highlight! link NeoTreeGitAdded Green
 highlight! link NeoTreeGitConflict Yellow
 highlight! link NeoTreeGitDeleted Red
